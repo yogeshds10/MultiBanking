@@ -1,0 +1,5 @@
+<%@ page pageEncoding="UTF-8" %>
+<ul class="sf-menu">
+<!--    <li><a href="home.jsp">Home</a></li>
+    <li><a href="#">Contact</a></li>-->
+</ul>

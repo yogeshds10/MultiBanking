@@ -1,0 +1,11 @@
+<%@ page pageEncoding="UTF-8" %>
+<ul class="sf-menu">
+    <li><a href="home.jsp">Home</a></li>
+    <li><a href="#">View</a>
+        <ul>
+            <li><a href="viewbanks.jsp">Banks</a></li>
+        </ul>
+    </li>
+    <li><a href="LogoutHandler">Logout</a></li>
+</ul>
+

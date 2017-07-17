@@ -1,0 +1,20 @@
+<%@ page pageEncoding="UTF-8" %>
+<ul class="sf-menu">
+    <li><a href="home.jsp">Home</a></li>
+    <li><a href="profile.jsp">Profile</a>
+        <ul>
+            <li><a href="passwd.jsp">Change Password</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Tasks</a>
+        <ul>
+            <li><a href="#">View</a>
+                <ul>
+                    <li><a href="viewbanks.jsp">Bank</a></li>
+                    <li><a href="UserAccounts">Account</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><a href="LogoutHandler">Logout</a></li>
+</ul>

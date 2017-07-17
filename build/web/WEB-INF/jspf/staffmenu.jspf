@@ -1,0 +1,39 @@
+<%@ page pageEncoding="UTF-8" %>
+<ul class="sf-menu">
+    <li><a href="home.jsp">Home</a></li>
+    <li><a href="profile.jsp">Profile</a>
+        <ul>
+            <li><a href="passwd.jsp">Change Password</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Tasks</a>
+        <ul>
+            <li><a href="#">Add</a>
+                <ul>
+                    <li><a href="addaccount.jsp">Account</a></li>
+                </ul>
+            </li>
+            <li><a href="#">View</a>
+                <ul>
+                    <li><a href="viewbanks.jsp">Bank</a></li>
+                    <li><a href="viewaccounts.jsp">Account</a></li>
+                </ul>
+            </li>
+            <li><a href="mybranch.jsp">My Branch</a>
+                <ul>
+                    <li><a href="viewstaff.jsp?idbranch=${sessionScope.idbranch}">View Staff</a></li>
+                    <li><a href="addaccount.jsp">Add Customer</a></li>
+                    <li><a href="viewaccounts.jsp?own=1">View Customer</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><a href="#">Transaction</a>
+        <ul>
+            <li><a href="deposit.jsp">Deposit</a></li>
+            <li><a href="withdraw.jsp">Withdraw</a></li>
+            <li><a href="summary.jsp">Summary</a></li>
+        </ul>
+    </li>
+    <li><a href="LogoutHandler">Logout</a></li>
+</ul>

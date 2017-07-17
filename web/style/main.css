@@ -1,0 +1,159 @@
+/* 
+    Document   : main
+    Created on : Mar 29, 2013, 11:46:29 AM
+    Author     : client
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*CSS Reset */
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input,abbr,article,aside,command,details,figcaption,figure,footer,header,hgroup,mark,meter,nav,output,progress,section,summary,time { margin: 0; padding: 0; }
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th,figcaption { font-size: 1em; font-weight: normal; font-style: normal; }
+fieldset,iframe { border: none; }
+caption,th { text-align: left; }
+table { border-collapse: collapse; border-spacing: 0; }
+article,aside,footer,header,hgroup,nav,section,figure,figcaption { display: block; }
+/* End of reset */
+body{
+    background: #ccffcc;
+}
+/*body *{
+    border: 1px solid #fff !important;
+}*/
+#wrapper{
+    /*width: 1000px;*/
+    margin: 0 auto;
+    color: #669900;
+}
+#header{
+    border-bottom: 10px double #669900;
+}
+#header h1{
+    font-size: 3em;
+    text-align: center;
+    padding: 20px;
+}
+#menu{
+    width: 70%;
+    min-width: 900px;
+    margin: 0 auto;
+}
+#content{
+    clear:both;
+    min-height: 400px;
+    width: 80%;
+    margin: 0 auto;
+    min-width: 900px;
+}
+#content form.singleform {
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #000;
+    width: 85%;
+}
+#content  form.singleform label{
+    width: 300px;
+}
+#content form.singleform div.submit{
+    margin-left: 300px;
+}
+#content div.login, #content div.register{
+    margin: 30px auto;
+    float: left;
+    width: 40%;
+}
+#content div.register{
+    margin: 30px 50px;
+}
+#content form label{
+    width: 120px;
+    float: left;
+    text-align: right;
+    margin-right: 20px;
+}
+#content div.ack label{
+    width: 200px;
+    text-align: justify;
+    margin-right: 20px;
+    color: #003300;
+}
+#content form h2,#content h2, #content div.register h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+#content h3{
+    font-size: 1.5em;
+}
+#content div.ack {
+    letter-spacing: 1px;
+    padding: 20px;
+    width: 90%;
+    min-width:600px;
+    background: #ffff99;
+    color: #ff0000;
+    font-size: 1.2em;
+    border: 2px solid #000;
+    text-align: center;
+    margin: 20px auto;
+}
+#content div.register ul{
+    margin-left: 180px;
+}
+#content div.submit{
+    margin-left: 150px;
+}
+#content table{
+    width: 90%;
+    min-width: 890px;
+}
+form input[type='text'],form input[type='password'],form input[type='email'],form input[type='time'],form input[type='number'], form input[type='date'], form select, form textarea{
+/*    background: #99ff99 !important;
+    color: #669900 !important;*/
+    font-family: cursive;
+    min-width: 185px;
+    height: 15px;
+    padding: 5px 10px 5px 2px;
+}
+
+form select{
+    height: 30px;
+    width: 200px;
+}
+form textarea{
+    min-height: 100px;
+}
+form input[type='button'],form input[type='submit'],form input[type='reset']{
+    padding: 5px 15px 5px 15px;
+}
+.msg{
+    position: fixed;
+    background: #ffff99;
+    color: #ff0000;
+    border: 1px solid #ff0000;
+    top: 100px;
+    left: 40%;
+    line-height: 1.5em;
+}
+.welcome{
+    position: relative;
+    display: block;
+    right: -800px;
+    top: -50px;
+    width: 200px;
+    overflow: visible;
+}
+#footer{
+    display: block;
+    width: 80%;
+    min-width: 900px;
+    margin: 0 auto;
+    clear: both;
+}
+#content .note{
+    color: #ff0000;
+}
+.error {
+    border: 1px solid #ff0000 !important;
+    color: #ff0000 !important;
+}
